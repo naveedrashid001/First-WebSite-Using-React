@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import 'react-notifications/lib/notifications.css';
 import { NotificationManager, NotificationContainer} from 'react-notifications';
+// Toastify imports
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function ToDoList() {
@@ -13,12 +16,12 @@ function ToDoList() {
     let todoData = e.target.toname.value.trim();
 
     if (todoData === "") {
-      alert("Empty note can't be added");
+      toast.error("Empty note can't be added");
       return;
     }
 
     if (todos.includes(todoData)) {
-      alert("Duplicate note can't be added");
+      toast.error("Duplicate note can't be added");
       return;
     }
 
@@ -45,7 +48,7 @@ function ToDoList() {
 
   return (
     <div>
-      
+      <ToastContainer />
 
     {/*  todo list  */}
       <div className='main mt-5 mb-5'>
