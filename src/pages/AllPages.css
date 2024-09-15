@@ -1,0 +1,25 @@
+.centered-image {
+    display: block;          /* Ensures the image behaves like a block-level element */
+    width: 30%;              /* Set the width to 90% of the parent container */
+    height: 250px;
+    margin: 0 auto;          /* Centers the image horizontally */
+    margin-top: 20px;
+    justify-content: center; /* Not applicable to images, but for reference */
+  }
+  
+  .card{
+    border-radius: 10px;
+  }
+  .back-button {
+    transition: background-color 0.3s, color 0.3s;
+    padding: 7px 19px;
+  }
+  
+  .back-button:hover {
+    color: white;
+  }
+  
+  .back-button:hover .text-white {
+    color: #0d6efd; /* Set the text color to match the Bootstrap primary color */
+  }
+  

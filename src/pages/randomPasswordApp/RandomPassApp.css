@@ -1,0 +1,102 @@
+.password-generator {
+    background-color: #232d7e; /* Generator box background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: white;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .password-box {
+    background-color: #1a1e61;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .password-input {
+    width: 80%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    outline: none;
+  }
+  
+  .copy-btn {
+    width: 20%;
+    background-color: #1a1e61;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .copy-btn:hover {
+    background-color: #13173e;
+  }
+  
+  .settings {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+  }
+  .setting-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .setting-item label {
+    margin: 0;
+  }
+  
+  .setting-item input {
+    width: 100px;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .checkbox-group label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-group input {
+    margin-right: 10px;
+  }
+
+  #passlength{
+    border-radius: 5px;
+    text-align: center;
+    padding: 3px 0px;
+  }
+  
+  button {
+    background-color: #1a1e61;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #13173e;
+  }
+  

@@ -1,0 +1,27 @@
+#h1{
+    margin: 0px;
+    padding: 0px;
+}
+#ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background: #000;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+#ul li{
+    list-style: none;
+    padding: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.li{
+    list-style: none;
+    padding: 6px;
+    text-decoration: none;
+    color: white;
+}
