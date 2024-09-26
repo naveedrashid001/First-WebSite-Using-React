@@ -78,15 +78,6 @@ hr {
   margin: 0;
 }
 
-.ptag{
-  position: fixed;
-  bottom: 0px;
-  right: 6px;
-  color: white;
-  font-size: small;
-  font-weight: bold;
-
-}
 .container ul {
   display: flex;
 }
