@@ -41,7 +41,6 @@ function App() {
           
       </div>
     
-      <p className='ptag'>Design By: Engr Naveed</p>
     </div>
   );
 }
